@@ -1,0 +1,11 @@
+*{
+    background-color: aqua;
+}
+.login_box{
+    background-color: brown;
+    width:20%;
+    height:40%;
+    position: absolute;
+    top:50%;
+    left:40%;
+}
