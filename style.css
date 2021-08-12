@@ -13,16 +13,19 @@ section{
     justify-content:center;
     align-items:center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+    background: url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 section .color{
     position: absolute;
-    filter: blur(150px);
-    -webkit-filter: blur(150px);
+    /* filter: blur(150px); */
+    /* -webkit-filter: blur(150px); */
 }
 
-section .color:nth-child(1){
+/* section .color:nth-child(1){
     width: 600px;
     height: 600px;
     background: #ff359b;
@@ -43,7 +46,67 @@ section .color:nth-child(3){
     background: #00d2ff;
     bottom: 50px;
     right: 100px;
+} */
+
+
+section .car1{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 34%;
+    left: 22%;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    animation: animate1 10s linear infinite;
+    -webkit-animation: animate1 10s linear infinite;
 }
+
+section .car2{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 48%;
+    right: 13%;
+    animation: animate2 10s linear infinite;
+    -webkit-animation: animate2 10s linear infinite;
+}
+
+@keyframes animate1{
+        50%{
+            transform: translateX(30px) translateY(5px) rotate(15deg);
+            -webkit-transform: translateX(30px) translateY(5px) rotate(15deg);
+            -moz-transform: translateX(30px) translateY(5px) rotate(15deg);
+            -ms-transform: translateX(30px) translateY(5px) rotate(15deg);
+            -o-transform: translateX(30px) translateY(5px) rotate(15deg);
+}
+        0%,100%{
+            transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -webkit-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -moz-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -ms-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -o-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+}
+    }
+
+    @keyframes animate2{
+        50%{
+            transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -webkit-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -moz-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -ms-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -o-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+}
+        0%,100%{
+            transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -webkit-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -moz-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -ms-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -o-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+}
+    }
 
 .box{
     position:relative;
@@ -51,18 +114,20 @@ section .color:nth-child(3){
 
 .box .square{
     position: absolute;
-    background: rgba(255, 255, 255, 0.1);
+    background: url(/logo1.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     backdrop-filter: blur(5px);
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border:  1px solid rgba(255, 255, 255, 0.5);
     border-right:  1px solid rgba(255, 255, 255, 0.2);
-    border-bottom:  1px solid rgba(255, 255, 255, 0.2);
+    border-bottom:  1px solid rgba(255, 255, 255, 0.2); */
     animation: animate 10s linear infinite;
-    -webkit-animation: animate 10s linear infinite;
-    animation-delay: calc(-1s * var(--i));
+    
 }
 
-@keyframes animate
+/* @keyframes animate
 {
     0%,100%{
         transform: translateY(-30px);
@@ -78,20 +143,21 @@ section .color:nth-child(3){
         -ms-transform: translateY(30px);
         -o-transform: translateY(30px);
 }
-}
+} */
 
 .box .square:nth-child(1){
-    top: -40px;
-    right:-60px;
-    width: 100px;
+    top: 25px;
+    right: 60px;
+    width: 90px;
     height: 100px;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     -ms-border-radius:10px;
     -o-border-radius:10px;
+    z-index: 2;
 }
-
+/*
 .box .square:nth-child(2){
     top: 140px;
     left: -100px;
@@ -140,13 +206,13 @@ section .color:nth-child(3){
     -moz-border-radius:10px ;
     -ms-border-radius:10px ;
     -o-border-radius:10px ;
-}
+} */
 
 .container{
     position: relative;
     width: 500px;
     min-height: 400px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -185,19 +251,19 @@ section .color:nth-child(3){
     position: absolute;
     left: 0;
     bottom: -10px;
-    width: 80px;
+    width: 125px;
     height: 4px;
     background: #fff;
 }
 
 
-.form .inputBox{
-    width: 80%;
+/* .form .inputBox{
+    width: 100%;
     margin-top: 20px;
-}
+} */
 
 
-.form .inputBox input{
+/* .form .inputBox input{
     width: 100%;
     background: rgba(255, 255, 255, 0.2);
     border: none;
@@ -213,23 +279,35 @@ section .color:nth-child(3){
     border-bottom:  1px solid rgba(255, 255, 255, 0.2);
     font-size: 16px;
     letter-spacing: 1px;
-    color: #656565;
+    color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
+} */
 
-.form .inputBox input::placeholder{
-    color: #959595;
-}
+/* .form .inputBox input::placeholder{
+    color: #000;
+} */
 
 
 .form .inputBox input[type="submit"]{
-    background: #fff;
-    color: #666;
-    max-width: 100px;
+    background: #03a9f4;
+    color: #000;
+    max-width: 150px;
     cursor: pointer;
     margin-bottom: 20px;
-    font-weight: 600;
-    
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    transform: translateX(75%);
+    -webkit-transform: translateX(75%);
+    -moz-transform: translateX(75%);
+    -ms-transform: translateX(75%);
+    -o-transform: translateX(75%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-transform: uppercase;
 }
 
 .forget{
@@ -239,5 +317,57 @@ section .color:nth-child(3){
 
 .forget a{
     color: #fff;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 14px;
 }
+
+.password{
+    float: left;
+}
+
+
+.signup{
+    float: right;
+
+}
+
+.form .inputBox{
+    position:relative;;
+ 
+ }
+.form .inputBox input{
+    width:100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:#fff;
+    /* letter-spacing: 1px; */
+    margin-bottom: 30px;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background:transparent;
+}
+ 
+.form .inputBox label{
+    position: absolute;
+    top:0%;
+    left:0;
+    padding: 10px 0;
+    font-size:16px;
+    color:#fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+.form .inputBox input:focus ~label,
+.form .inputBox input:valid ~label
+{
+    top:-18px;
+    left:0;
+    letter-spacing: 1px;
+    color:#03a9f4;
+    font-weight: 600;
+    font-size: 13px;;
+}
+ 
