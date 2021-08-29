@@ -13,7 +13,7 @@ section{
     justify-content:center;
     align-items:center;
     min-height: 100vh;
-    background: url(./background.jpeg);
+    background: url(./Resources/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,7 +114,7 @@ section .car2{
 
 .box .square{
     position: absolute;
-    background: url(./logo1.gif);
+    background: url(./Resources/logo1.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
