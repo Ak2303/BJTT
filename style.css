@@ -114,7 +114,7 @@ section .car2{
 
 .box .square{
     position: absolute;
-    background: url(/logo1.gif);
+    background: url(./logo1.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@ section .car2{
 
 .form .inputBox input[type="submit"]{
     background: #03a9f4;
-    color: #000;
+    color: #fff;
     max-width: 150px;
     cursor: pointer;
     margin-bottom: 20px;
