@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+
+section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    background: url(./Resources/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section .color{
+    position: absolute;
+    /* filter: blur(150px); */
+    /* -webkit-filter: blur(150px); */
+}
+
+/* section .color:nth-child(1){
+    width: 600px;
+    height: 600px;
+    background: #ff359b;
+    top: -350px;
+}
+
+section .color:nth-child(2){
+    width: 500px;
+    height: 500px;
+    background: #fffd87;
+    bottom: -150px;
+    left: 100px;
+}
+
+section .color:nth-child(3){
+    width: 300px;
+    height: 300px;
+    background: #00d2ff;
+    bottom: 50px;
+    right: 100px;
+} */
+
+
+section .car1{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 34%;
+    left: 22%;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    animation: animate1 10s linear infinite;
+    -webkit-animation: animate1 10s linear infinite;
+}
+
+section .car2{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 48%;
+    right: 13%;
+    animation: animate2 10s linear infinite;
+    -webkit-animation: animate2 10s linear infinite;
+}
+
+@keyframes animate1{
+        50%{
+            transform: translateX(30px) translateY(5px) rotate(15deg);
+            -webkit-transform: translateX(30px) translateY(5px) rotate(15deg);
+            -moz-transform: translateX(30px) translateY(5px) rotate(15deg);
+            -ms-transform: translateX(30px) translateY(5px) rotate(15deg);
+            -o-transform: translateX(30px) translateY(5px) rotate(15deg);
+}
+        0%,100%{
+            transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -webkit-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -moz-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -ms-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+            -o-transform: translateX(-20px) translateY(-5px) rotate(15deg);
+}
+    }
+
+    @keyframes animate2{
+        50%{
+            transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -webkit-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -moz-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -ms-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+            -o-transform: translateX(30px) translateY(5px) rotate(10deg) rotateY(180deg);
+}
+        0%,100%{
+            transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -webkit-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -moz-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -ms-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+            -o-transform: translateX(-20px) translateY(-5px) rotate(10deg) rotateY(180deg);
+}
+    }
+
+.box{
+    position:relative;
+}
+
+.box .square{
+    position: absolute;
+    background: url(./Resources/logo1.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    /* box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border:  1px solid rgba(255, 255, 255, 0.5);
+    border-right:  1px solid rgba(255, 255, 255, 0.2);
+    border-bottom:  1px solid rgba(255, 255, 255, 0.2); */
+    animation: animate 10s linear infinite;
+    
+}
+
+/* @keyframes animate
+{
+    0%,100%{
+        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+}
+    50%{
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+        -moz-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        -o-transform: translateY(30px);
+}
+} */
+
+.box .square:nth-child(1){
+    top: 25px;
+    right: 60px;
+    width: 90px;
+    height: 100px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    z-index: 2;
+}
+/*
+.box .square:nth-child(2){
+    top: 140px;
+    left: -100px;
+    width: 120px;
+    height: 120px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    z-index: 2;
+}
+
+.box .square:nth-child(3){
+    top: 300px;
+    right:-60px;
+    width: 80px;
+    height: 80px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    z-index: 2;
+}
+
+.box .square:nth-child(4){
+    bottom: -60px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    border-radius:10px;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+
+.box .square:nth-child(5){
+    top: -80px;
+    right: 250px;
+    width: 70px;
+    height: 70px;
+    border-radius:10px;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+} */
+
+.container{
+    position: relative;
+    width: 500px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border:  1px solid rgba(255, 255, 255, 0.5);
+    border-right:  1px solid rgba(255, 255, 255, 0.2);
+    border-bottom:  1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 60px;    
+}
+
+.form h2{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+
+}
+
+
+.form h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 125px;
+    height: 4px;
+    background: #fff;
+}
+
+
+/* .form .inputBox{
+    width: 100%;
+    margin-top: 20px;
+} */
+
+
+/* .form .inputBox input{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    border:  1px solid rgba(255, 255, 255, 0.5);
+    border-right:  1px solid rgba(255, 255, 255, 0.2);
+    border-bottom:  1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+} */
+
+/* .form .inputBox input::placeholder{
+    color: #000;
+} */
+
+
+.form .inputBox input[type="submit"]{
+    background: #03a9f4;
+    color: #fff;
+    max-width: 150px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    transform: translateX(75%);
+    -webkit-transform: translateX(75%);
+    -moz-transform: translateX(75%);
+    -ms-transform: translateX(75%);
+    -o-transform: translateX(75%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-transform: capitalize;
+
+}
+
+.forget{
+    margin-top: 5px;
+    color: #fff;    
+} 
+
+.forget a{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.signup{
+    float: right;
+
+}
+
+.form .inputBox{
+    position:relative;;
+ 
+ }
+.form .inputBox input{
+    width:100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:#fff;
+    /* letter-spacing: 1px; */
+    margin-bottom: 30px;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background:transparent;
+}
+ 
+.form .inputBox label{
+    position: absolute;
+    top:0%;
+    left:0;
+    padding: 10px 0;
+    font-size:16px;
+    color:#fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+.form .inputBox input:focus ~label,
+.form .inputBox input:valid ~label
+{
+    top:-18px;
+    left:0;
+    letter-spacing: 1px;
+    color:#03a9f4;
+    font-weight: 600;
+    font-size: 13px;;
+}
+ 
+.lineleft{
+    border: 2px solid white;
+    width: 40%;
+    float: left;
+}
+
+.lineright{
+    border: 2px solid white;
+    width: 40%;
+    float: right;
+}
+.or{
+    color: #03a9f4;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    transform: translate(15.5px, -12px);
+    
+    -webkit-transform: translate(15.5px, -12px);
+    -moz-transform: translate(15.5px, -12px);
+    -ms-transform: translate(15.5px, -12px);
+    -o-transform: translate(15.5px, -12px);
+}
+
+
+.signupgoogle{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.3);
+    transition: color 0.2s, background 0.2s;
+    -webkit-transition: color 0.2s, background 0.2s;
+    -moz-transition: color 0.2s, background 0.2s;
+    -ms-transition: color 0.2s, background 0.2s;
+    -o-transition: color 0.2s, background 0.2s;
+}
+
+.signuptext{
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+
+.signupgoogle:hover{
+    background: #fff;
+    color: #000;
+}
+
+.google{
+    width: 40px;
+    float: left;
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+}
