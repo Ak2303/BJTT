@@ -288,7 +288,7 @@ section .car2{
 } */
 
 
-.form .inputBox input[type="submit"]{
+.form .inputBox #register{
     background: #03a9f4;
     color: #fff;
     max-width: 150px;
@@ -308,6 +308,7 @@ section .car2{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     text-transform: capitalize;
+    text-align: center;
 
 }
 
@@ -367,7 +368,7 @@ section .car2{
     font-weight: 600;
     font-size: 13px;;
 }
- 
+/*  
 .lineleft{
     border: 2px solid white;
     width: 40%;
@@ -434,4 +435,19 @@ section .car2{
     -moz-transform: translateX(50px);
     -ms-transform: translateX(50px);
     -o-transform: translateX(50px);
+} */
+
+.login{
+    margin-top: 5px;
+    color: #fff;
+} 
+
+.login a{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.button{
+    text-align: center;
 }
