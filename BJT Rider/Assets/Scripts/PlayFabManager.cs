@@ -35,7 +35,7 @@ public class PlayFabManager : MonoBehaviour
 
     void OnRegisterSuccess(RegisterPlayFabUserResult result){
         ErrorMessage.text = "Registered successfully and Loggedin!!!!!";
-        SceneManager.LoadScene("NPNActiveTrack");
+        SceneManager.LoadScene("HomePage");
     }
     
 
@@ -51,7 +51,7 @@ public class PlayFabManager : MonoBehaviour
     void OnLoginSuccess(LoginResult result){
         ErrorMessage.text = "LoggedIn!!!";
         Debug.Log("Successful Login/Account created");
-        SceneManager.LoadScene("NPNActiveTrack");               
+        SceneManager.LoadScene("HomePage");               
     }
 
     public void resetPasswordButton(){
