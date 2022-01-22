@@ -12,11 +12,17 @@ public class PlayFabManager : MonoBehaviour
     public Text ErrorMessage;
     public InputField Email;
     public InputField Password;
+    public InputField nameInput;
+    //mujhe dikha 
+    public GameObject rowPrefab;
+    public Transform rowParent;
+
+
     public void registerButton(){
         if(Email.text.Length == 0){
             ErrorMessage.text = "Enter Email";
             Invoke("DisableText", 5f);
-            return;//crypto:)
+            return;
         }
 
         if(Password.text.Length < 6){
@@ -35,7 +41,8 @@ public class PlayFabManager : MonoBehaviour
 
     void OnRegisterSuccess(RegisterPlayFabUserResult result){
         ErrorMessage.text = "Registered successfully and Loggedin!!!!!";
-        SceneManager.LoadScene("HomePage");
+        SendLeaderboard(0);
+        SceneManager.LoadScene("WelcomeScene");
     }
     
 
@@ -51,8 +58,22 @@ public class PlayFabManager : MonoBehaviour
     void OnLoginSuccess(LoginResult result){
         ErrorMessage.text = "LoggedIn!!!";
         Debug.Log("Successful Login/Account created");
-        SceneManager.LoadScene("HomePage");               
+        SceneManager.LoadScene("HomePage");
+                      
     }
+
+    public void SubmitNameButton(){
+        var request=new UpdateUserTitleDisplayNameRequest{
+            DisplayName=nameInput.text,
+        };
+        PlayFabClientAPI.UpdateUserTitleDisplayName(request,OnDisplayNameUpdate,OnError); 
+    }
+
+    void OnDisplayNameUpdate(UpdateUserTitleDisplayNameResult result){
+        Debug.Log("Display Name updated");
+        SceneManager.LoadScene("HomePage");
+    }
+
 
     public void resetPasswordButton(){
         var request = new SendAccountRecoveryEmailRequest{
@@ -63,11 +84,57 @@ public class PlayFabManager : MonoBehaviour
     }
 
     void OnPasswordReset(SendAccountRecoveryEmailResult result){
-        //bccha dhyaan se .... aapko bol rha mo...dhyaan rkhiye ...ik mo ...
+        
         ErrorMessage.text = "Account Recovery Email Sent!!";
         
     }
+    //bta
+    public void SendLeaderboard(int score){
+        var request = new UpdatePlayerStatisticsRequest{
+            Statistics = new List<StatisticUpdate>{
+                new StatisticUpdate{
+                    StatisticName = "Scoreboard", //vo , h ya nhi
+                    Value = score
+                }
+            }
+        };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);//haa accha
+    }
+    
 
+    void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result){
+        Debug.Log("Successful leaderboard sent!!");
+    }
+
+    //sb h
+    
+    
+
+    public void GetLeaderboard(){
+        var request = new GetLeaderboardRequest{
+            StatisticName = "Scoreboard",
+            StartPosition = 0,
+            MaxResultsCount = 10
+        };
+        PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
+    }
+
+    void OnLeaderboardGet(GetLeaderboardResult result){
+        foreach (Transform item in rowParent)
+        {
+            Destroy(item.gameObject);
+        }
+        foreach (var item in result.Leaderboard)
+        {   
+            GameObject newGo = Instantiate(rowPrefab, rowParent);
+            Text[]texts = newGo.GetComponentsInChildren<Text>();//ye line dekh
+            texts[0].text = (item.Position +1).ToString();
+            texts[1].text = (item.DisplayName);
+            texts[2].text = (item.StatValue).ToString();
+            Debug.Log(item.Position + 1 + " " + item.PlayFabId + " " + item.StatValue);//
+        }
+    }
+    //aa gya.... ha momo... aaram se
 
     // Start is called before the first frame update
     void Start()
