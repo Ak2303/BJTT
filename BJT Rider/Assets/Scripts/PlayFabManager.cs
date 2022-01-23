@@ -13,9 +13,11 @@ public class PlayFabManager : MonoBehaviour
     public InputField Email;
     public InputField Password;
     public InputField nameInput;
-    //mujhe dikha 
+    
     public GameObject rowPrefab;
     public Transform rowParent;
+    public GameObject playerRowPrefab;
+    public Transform playerRowParent;
 
 
     public void registerButton(){
@@ -41,7 +43,7 @@ public class PlayFabManager : MonoBehaviour
 
     void OnRegisterSuccess(RegisterPlayFabUserResult result){
         ErrorMessage.text = "Registered successfully and Loggedin!!!!!";
-        SendLeaderboard(0);
+        SendLeaderboard(50);
         SceneManager.LoadScene("WelcomeScene");
     }
     
@@ -88,12 +90,12 @@ public class PlayFabManager : MonoBehaviour
         ErrorMessage.text = "Account Recovery Email Sent!!";
         
     }
-    //bta
+    
     public void SendLeaderboard(int score){
         var request = new UpdatePlayerStatisticsRequest{
             Statistics = new List<StatisticUpdate>{
                 new StatisticUpdate{
-                    StatisticName = "Scoreboard", //vo , h ya nhi
+                    StatisticName = "Scoreboard", 
                     Value = score
                 }
             }
@@ -134,7 +136,32 @@ public class PlayFabManager : MonoBehaviour
             Debug.Log(item.Position + 1 + " " + item.PlayFabId + " " + item.StatValue);//
         }
     }
-    //aa gya.... ha momo... aaram se
+
+    public void GetLeaderboardScore(){
+        var request = new GetLeaderboardAroundPlayerRequest{
+            StatisticName = "Scoreboard",
+            MaxResultsCount = 1
+        };
+        PlayFabClientAPI.GetLeaderboardAroundPlayer(request, OnLeaderboardScoreGet, OnError);
+    }
+
+    void OnLeaderboardScoreGet(GetLeaderboardAroundPlayerResult result){
+        foreach (Transform item in playerRowParent)
+        {
+            Destroy(item.gameObject);
+        }
+        
+        foreach (var item in result.Leaderboard)
+        {   
+            GameObject newGo = Instantiate(playerRowPrefab, playerRowParent);
+            Text[]texts = newGo.GetComponentsInChildren<Text>();//ye line dekh
+            texts[0].text = (item.Position +1).ToString();//
+            texts[1].text = (item.DisplayName);
+            texts[2].text = (item.StatValue).ToString();
+            Debug.Log(item.Position + 1 + " " + item.PlayFabId + " " + item.StatValue);//
+        }
+    }
+    
 
     // Start is called before the first frame update
     void Start()
