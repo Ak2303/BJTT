@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/NPNCutoff.unity
+- path: Assets/Scenes/NPNActiveTrack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
