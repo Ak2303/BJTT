@@ -8,6 +8,12 @@ public class Final_Score : MonoBehaviour
     public float final_score;
     public Score score;
     // Start is called before the first frame update
+    public GameObject scoreCanvas;
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Collision Detected");
+        scoreCanvas.SetActive(true); 
+    }
     void Start()
     {
         xp=200;

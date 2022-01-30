@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour
 {
+    public GameObject scoreCanvas;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision Detected");    
+        Debug.Log("Collision Detected");
+        scoreCanvas.SetActive(true); 
     }
 
     // Start is called before the first frame update
