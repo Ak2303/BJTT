@@ -64,6 +64,12 @@ public class PlayFabManager : MonoBehaviour
                       
     }
 
+
+    public void OnLogoutButton(){
+        PlayFabClientAPI.ForgetAllCredentials();
+        SceneManager.LoadScene("LoginScene");
+    }
+
     public void SubmitNameButton(){
         var request=new UpdateUserTitleDisplayNameRequest{
             DisplayName=nameInput.text,

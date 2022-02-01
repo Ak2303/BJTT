@@ -15,6 +15,24 @@ EditorBuildSettings:
     path: Assets/Scenes/HomePage.unity
     guid: 17472f71039224e448e68a5b2cbe05ed
   - enabled: 1
+    path: Assets/Scenes/HelpScene.unity
+    guid: ded8efcf55ef88b4e880e7ae7efd846f
+  - enabled: 1
     path: Assets/Scenes/NPNActiveTrack.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/NPNCutoff.unity
+    guid: f6b3a1ce4f477ac4094d843d0a1acf95
+  - enabled: 1
+    path: Assets/Scenes/NPNSaturation.unity
+    guid: ba9749ed9e820604eade14ceba85c37f
+  - enabled: 1
+    path: Assets/Scenes/PNPActive.unity
+    guid: 997f86d99f123d741b46ec6bcac80346
+  - enabled: 1
+    path: Assets/Scenes/PNPCutoff.unity
+    guid: a6c10a99cd639d845bc4240d1ab7d985
+  - enabled: 1
+    path: Assets/Scenes/PNPSaturation.unity
+    guid: fd5b4ba9a64c5ff439ae3facdf872b02
   m_configObjects: {}

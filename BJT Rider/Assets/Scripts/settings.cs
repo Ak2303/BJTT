@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class settings : MonoBehaviour
 {
-    public void getHelp(){
-        SceneManager.LoadScene(1);
+    //Button on the Settings/Help UI
+    public void OnBack(){
+        SceneManager.LoadScene("HomePage");
     }
 
+    public void OnQuit(){
+        Application.Quit();
+    }
 
 }
