@@ -1,0 +1,531 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 8068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50972
+Successfully changed project path to: C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider
+C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     4034 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002981 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3037ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2807ms)
+			LoadAssemblies (1163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (975ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1656 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 5.041800 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.091600 ms MarkObjects: 4.237100 ms  DeleteObjects: 0.442600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/NPNActiveTrack.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NPNActiveTrack.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305f607a034eaab3f22908ffc17644aa') in 0.074812 seconds 
+  Import took 0.126382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.030548 seconds.
+  path: Assets/Traffic Essentials Asset Pack
+  artifactKey: Guid(95b75450df22fef4b9d684aa59a88f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack using Guid(95b75450df22fef4b9d684aa59a88f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de19fd7004a7b562a9f27e62d47b6ad') in 0.003705 seconds 
+  Import took 0.072382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/Traffic Essentials Asset Pack
+  artifactKey: Guid(95b75450df22fef4b9d684aa59a88f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack using Guid(95b75450df22fef4b9d684aa59a88f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de19fd7004a7b562a9f27e62d47b6ad') in 0.005516 seconds 
+  Import took 0.043153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.802458 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs
+  artifactKey: Guid(f62d412799654784988f6af7d6c2997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs using Guid(f62d412799654784988f6af7d6c2997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642333c525478a1042ced23c220f5749') in 0.094021 seconds 
+  Import took 0.144843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/baseAhead.prefab
+  artifactKey: Guid(14628494b6da99b4d89c1526a45eadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/baseAhead.prefab using Guid(14628494b6da99b4d89c1526a45eadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e47c258621db269d75e5c27db8650be') in 1.317242 seconds 
+  Import took 1.381009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001161 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay2.prefab
+  artifactKey: Guid(a2e1e02144a3b7542b80530afe318e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay2.prefab using Guid(a2e1e02144a3b7542b80530afe318e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955029d337f99d5149316fb754d775fa') in 0.430240 seconds 
+  Import took 0.502576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourAheadSign.prefab
+  artifactKey: Guid(1678eee6b46391747a54fd607e89c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourAheadSign.prefab using Guid(1678eee6b46391747a54fd607e89c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caca0b2b6ee7cd850f251025faedc86') in 0.190803 seconds 
+  Import took 0.219282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/StreetLight.prefab
+  artifactKey: Guid(f19e1785acfa6564d86223068b4fba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/StreetLight.prefab using Guid(f19e1785acfa6564d86223068b4fba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8979a311af7adc682f3e65b1211f94a') in 0.215393 seconds 
+  Import took 0.332430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/YieldSign.prefab
+  artifactKey: Guid(d9e6be94d16010a4ea07e0e42e67bc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/YieldSign.prefab using Guid(d9e6be94d16010a4ea07e0e42e67bc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc9fc69fd9f91fe8b44aa0daf77fd8f') in 0.160303 seconds 
+  Import took 0.246879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/TLASign.prefab
+  artifactKey: Guid(0e3199d8f7b1f5646bb22ed47774d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/TLASign.prefab using Guid(0e3199d8f7b1f5646bb22ed47774d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2ec538b4e9e1b496e889915db2b635') in 0.109390 seconds 
+  Import took 0.207118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/WrongWaySign.prefab
+  artifactKey: Guid(ff4b81d36487b4045949a84f4fe76680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/WrongWaySign.prefab using Guid(ff4b81d36487b4045949a84f4fe76680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf42246a29a21772185de0b682a95c8') in 0.118199 seconds 
+  Import took 0.204188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/RightTurnSign.prefab
+  artifactKey: Guid(60e943cda54b1544c8f4484d629cf63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/RightTurnSign.prefab using Guid(60e943cda54b1544c8f4484d629cf63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471ba9c76c48ea60c1daa871792c01ce') in 0.139237 seconds 
+  Import took 0.430137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourSign 1.prefab
+  artifactKey: Guid(aea1cd41ef2b49847b403245fc895761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourSign 1.prefab using Guid(aea1cd41ef2b49847b403245fc895761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57fa009cb8de8600bb81048005deb2b') in 0.169672 seconds 
+  Import took 0.251827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/SpeedLimit100Sign.prefab
+  artifactKey: Guid(b8548e6709532f94792760c6f823cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/SpeedLimit100Sign.prefab using Guid(b8548e6709532f94792760c6f823cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7cf897f3984705caa888820d6c59e8') in 0.124998 seconds 
+  Import took 0.222750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/IntersectionPole.prefab
+  artifactKey: Guid(5089ee9d9a6d75c4d82b5a179f6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/IntersectionPole.prefab using Guid(5089ee9d9a6d75c4d82b5a179f6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa560e90b283d65ace561dd4aa780f36') in 0.086933 seconds 
+  Import took 0.147894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay1.prefab
+  artifactKey: Guid(9240689dcd1aa154dad5af7b1f9ace3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay1.prefab using Guid(9240689dcd1aa154dad5af7b1f9ace3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f50c02bcaa7e2da0c32bcd5d5ccce08') in 0.269109 seconds 
+  Import took 0.342237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/RegPylon.prefab
+  artifactKey: Guid(6f912cbcddee78f4a8e3bcd3ce4e820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/RegPylon.prefab using Guid(6f912cbcddee78f4a8e3bcd3ce4e820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009870b9c00772c88ed0f23ebf489b88') in 0.059739 seconds 
+  Import took 0.079791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail1.prefab
+  artifactKey: Guid(07c354f3a9eccb748937a0324e7b34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail1.prefab using Guid(07c354f3a9eccb748937a0324e7b34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fa17138abf0ed971688f4bea5517da') in 0.043932 seconds 
+  Import took 0.081466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail2.prefab
+  artifactKey: Guid(5e2641858c54b814a9b47c6981ce0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail2.prefab using Guid(5e2641858c54b814a9b47c6981ce0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786a673efb5bdafef6bf6af63e3b0aaa') in 0.017363 seconds 
+  Import took 0.053244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/GuardRail Post.prefab
+  artifactKey: Guid(18297b989e2de3c47b4c5895acf13e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/GuardRail Post.prefab using Guid(18297b989e2de3c47b4c5895acf13e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9291c1c46872067a8e2341d335d4f1') in 0.018385 seconds 
+  Import took 0.084213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/SlipperyRoadSign.prefab
+  artifactKey: Guid(e2300e70b15dbb343a0d963e39e3fca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/SlipperyRoadSign.prefab using Guid(e2300e70b15dbb343a0d963e39e3fca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22a3a2a5e9c7eff952420931096c7af') in 0.070212 seconds 
+  Import took 0.126008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/RoadWorkAheadSign.prefab
+  artifactKey: Guid(c346d7276b40b374c9e0afeea0238ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/RoadWorkAheadSign.prefab using Guid(c346d7276b40b374c9e0afeea0238ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09aa399d6c9e709c3ad35b1bad6c5b4') in 0.020712 seconds 
+  Import took 0.034834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/TwoLaneSign.prefab
+  artifactKey: Guid(22d4199a70be9ab46ae4b26791f886ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/TwoLaneSign.prefab using Guid(22d4199a70be9ab46ae4b26791f886ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c68c292906cd16e52fc7f367d0be09') in 0.065395 seconds 
+  Import took 0.108187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/ParkingMeter.prefab
+  artifactKey: Guid(c5df52fbca8437a49958539a8455b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/ParkingMeter.prefab using Guid(c5df52fbca8437a49958539a8455b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdcf1800b4efc5bf71467f5d50cf3b0') in 0.250311 seconds 
+  Import took 0.286318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/SpeedLimit25Sign.prefab
+  artifactKey: Guid(ab7c8606ead429347af7e39cfde3def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/SpeedLimit25Sign.prefab using Guid(ab7c8606ead429347af7e39cfde3def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bd1fdff691527359c28b653b55deb6') in 0.120656 seconds 
+  Import took 0.171813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/TallPylon.prefab
+  artifactKey: Guid(786588e39ad89774ba7578fa88884546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/TallPylon.prefab using Guid(786588e39ad89774ba7578fa88884546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd861a08ddc7ac2e8b5800ab01c6d9d') in 0.048491 seconds 
+  Import took 0.116132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/Traffic Light2.prefab
+  artifactKey: Guid(db10cdf4b7c4a134db46097674a38008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/Traffic Light2.prefab using Guid(db10cdf4b7c4a134db46097674a38008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b93a8645aa6e33569f1615ecbf6ae17') in 0.636421 seconds 
+  Import took 0.661171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/MetalPole.prefab
+  artifactKey: Guid(ff0f2161f1d05294f9e6649dee40bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/MetalPole.prefab using Guid(ff0f2161f1d05294f9e6649dee40bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9ce3cbc89c91c6b8375b44a922de71') in 0.018418 seconds 
+  Import took 0.024543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/Traffic Light.prefab
+  artifactKey: Guid(da2b3557f9ef2a8438ae977a154bc015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/Traffic Light.prefab using Guid(da2b3557f9ef2a8438ae977a154bc015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f536378c121edf5cc2dfb8a67a9100fd') in 0.053691 seconds 
+  Import took 0.079522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/LeftTurnSign.prefab
+  artifactKey: Guid(8c5e168958e55d44bab492fbecebdfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/LeftTurnSign.prefab using Guid(8c5e168958e55d44bab492fbecebdfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5221217291ea04ce88442ee64931d11e') in 0.136394 seconds 
+  Import took 0.177365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/FireHydrant.prefab
+  artifactKey: Guid(10c9c5bf5053a1b41918cb1ccec3295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/FireHydrant.prefab using Guid(10c9c5bf5053a1b41918cb1ccec3295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdd51d9070571ade2aeee4e338ee729') in 0.226301 seconds 
+  Import took 0.258887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/ManholeCover.prefab
+  artifactKey: Guid(68b2ca32dc0cdaa4d941a1df55fae058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/ManholeCover.prefab using Guid(68b2ca32dc0cdaa4d941a1df55fae058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64398d389961b2355e9d405a7e29e80') in 0.321980 seconds 
+  Import took 0.382950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/Pedestrian Light.prefab
+  artifactKey: Guid(b405c08fd2a5d2541a59055ec0ae4bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/Pedestrian Light.prefab using Guid(b405c08fd2a5d2541a59055ec0ae4bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416da86e495467c967e0f085c5055bbb') in 0.190934 seconds 
+  Import took 0.242981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/StopSign.prefab
+  artifactKey: Guid(d379f475803bbd34d91987f2a12a4ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/StopSign.prefab using Guid(d379f475803bbd34d91987f2a12a4ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bea0b0d006b6dd807053880b88c334') in 0.089140 seconds 
+  Import took 0.117863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/SpeedLimit50Sign.prefab
+  artifactKey: Guid(cb8fc2d81b49daa4786c79796a8781ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/SpeedLimit50Sign.prefab using Guid(cb8fc2d81b49daa4786c79796a8781ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e808c3fca8b432a68c5805a259a1e0ec') in 0.104422 seconds 
+  Import took 0.148561 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1435ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.9 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 3.934400 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.061200 ms MarkObjects: 3.242100 ms  DeleteObjects: 0.410400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.076822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12371ms)
+		BeginReloadAssembly (1519ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (62ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (487ms)
+		EndReloadAssembly (10134ms)
+			LoadAssemblies (1202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2751ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (481ms)
+			SetupLoadedEditorAssemblies (4893ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (449ms)
+				ProcessInitializeOnLoadAttributes (4180ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (112ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (125ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.9 MB.
+System memory in use after: 104.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2131.
+Total: 5.938900 ms (FindLiveObjects: 0.450400 ms CreateObjectMapping: 0.195300 ms MarkObjects: 4.816700 ms  DeleteObjects: 0.473400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
