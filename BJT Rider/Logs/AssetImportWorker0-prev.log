@@ -1,0 +1,777 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 8068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60592
+Successfully changed project path to: C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider
+C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/akv shanta/Desktop/Projects/Design Credit/BJTT/BJT Rider/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     4034 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003014 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1419ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1388ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1157ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (530ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1656 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 108.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 3.234100 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.592900 ms  DeleteObjects: 0.388300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayFabManager.cs
+  artifactKey: Guid(e3500089628548643b4fa5a1d79b0d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayFabManager.cs using Guid(e3500089628548643b4fa5a1d79b0d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a31fbdc928d0b164c29c9fdd19185b') in 0.124564 seconds 
+  Import took 0.128135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 816.492735 seconds.
+  path: Assets/Score and Times - Game Sound Solutions
+  artifactKey: Guid(78ac53162a6428a44b057d3f07bcae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions using Guid(78ac53162a6428a44b057d3f07bcae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c83313b6159c7c77c07660fd8bef81') in 0.005368 seconds 
+  Import took 0.010005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.260386 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/8 bits
+  artifactKey: Guid(92b79142a35194288a6bcd22732d04a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/8 bits using Guid(92b79142a35194288a6bcd22732d04a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450057bfbdbf921f311086a8088ebfe') in 0.004303 seconds 
+  Import took 0.008248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001067 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/8 bits
+  artifactKey: Guid(92b79142a35194288a6bcd22732d04a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/8 bits using Guid(92b79142a35194288a6bcd22732d04a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450057bfbdbf921f311086a8088ebfe') in 0.003473 seconds 
+  Import took 0.007368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.527482 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/classic
+  artifactKey: Guid(fd8ab0bf5a43049a4b09eb0751f02c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/classic using Guid(fd8ab0bf5a43049a4b09eb0751f02c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ed99be5c5707ea0b6e7a50d025ebca') in 0.004745 seconds 
+  Import took 0.008904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.100204 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease
+  artifactKey: Guid(56946e13a82d04295b9a432e19fc1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease using Guid(56946e13a82d04295b9a432e19fc1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab337c337bbc8ca45941eb9c26796e4') in 0.004607 seconds 
+  Import took 0.008467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.088766 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/decrease_bell_1.wav
+  artifactKey: Guid(8e580e2fd3fcb4df5891b32928f72a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/decrease_bell_1.wav using Guid(8e580e2fd3fcb4df5891b32928f72a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cd5a2e7af24d62b0738dfe0533e96b') in 0.592577 seconds 
+  Import took 0.596294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_organ_1.wav
+  artifactKey: Guid(53151b945e8834181b6e41a8873eb33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_organ_1.wav using Guid(53151b945e8834181b6e41a8873eb33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fe5dbd51648519a2ab9a82b657c47d') in 0.054037 seconds 
+  Import took 0.057924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_2.wav
+  artifactKey: Guid(4c36f3e68d57c4a2c82efd35df1ef2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_2.wav using Guid(4c36f3e68d57c4a2c82efd35df1ef2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2f5f98b5284c08b86b3baab5557909') in 0.045212 seconds 
+  Import took 0.048081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_1.wav
+  artifactKey: Guid(f48cadc7721fa477cb2d8c796ea41fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_1.wav using Guid(f48cadc7721fa477cb2d8c796ea41fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb2d5798462dad1a6807fc99beec939') in 0.068204 seconds 
+  Import took 0.071310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_saw_2.wav
+  artifactKey: Guid(406c09fbe7cfd4b76a6b958e436b9f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_saw_2.wav using Guid(406c09fbe7cfd4b76a6b958e436b9f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12daf353409ec049bf7984d65523b52') in 0.042269 seconds 
+  Import took 0.047151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_sin_1.wav
+  artifactKey: Guid(7f9d855f2bc624a5ea12c25e0616a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_sin_1.wav using Guid(7f9d855f2bc624a5ea12c25e0616a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e011298604bd0c9680d043a8058227f') in 0.112343 seconds 
+  Import took 0.119164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_4.wav
+  artifactKey: Guid(cda60ef07701e4fe69c69c6da15bf3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_4.wav using Guid(cda60ef07701e4fe69c69c6da15bf3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d382cf357a552676ebf07db61fba25') in 0.062012 seconds 
+  Import took 0.066970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_sin_1.wav
+  artifactKey: Guid(67c8aba792087474b987df68f433de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_sin_1.wav using Guid(67c8aba792087474b987df68f433de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e61df2b49a634b8d9aacde2931e0653') in 0.062962 seconds 
+  Import took 0.067375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_saw_3.wav
+  artifactKey: Guid(0e444c893bdc44cd7bbe966d3ef87667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_saw_3.wav using Guid(0e444c893bdc44cd7bbe966d3ef87667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50000e89626ad88a9e764227cb33fc34') in 0.061969 seconds 
+  Import took 0.065859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_bell_1.wav
+  artifactKey: Guid(10ab5f2d15237454f9a4dcc9e70ea813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_bell_1.wav using Guid(10ab5f2d15237454f9a4dcc9e70ea813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb167b344553666e5782df370be8bfc') in 0.041397 seconds 
+  Import took 0.044819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_saw_1.wav
+  artifactKey: Guid(8df2bb81b6aa945a4866d01afb946bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_saw_1.wav using Guid(8df2bb81b6aa945a4866d01afb946bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c800a38fa592c32c0b7378727394609e') in 0.041018 seconds 
+  Import took 0.043956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_saw_3.wav
+  artifactKey: Guid(82c7878fbef5c4699bb6b9864673d652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_saw_3.wav using Guid(82c7878fbef5c4699bb6b9864673d652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252a170b628193571c22f7edd46d0fd8') in 0.046877 seconds 
+  Import took 0.049744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_swap_1.wav
+  artifactKey: Guid(d3efcdbff3e674f8d99a919dd8447e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_swap_1.wav using Guid(d3efcdbff3e674f8d99a919dd8447e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8f64302a4ca43017cd6241f6d5bc75') in 0.071082 seconds 
+  Import took 0.075234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_swap_3.wav
+  artifactKey: Guid(0437e5536d8054cc9b0a1532745caa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_swap_3.wav using Guid(0437e5536d8054cc9b0a1532745caa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5248886523fca7862ce77264ebe8a23f') in 0.040512 seconds 
+  Import took 0.044436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/decrease_bell_3.wav
+  artifactKey: Guid(c111c018fd39d4e93a2e5c54ca3ce45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/decrease_bell_3.wav using Guid(c111c018fd39d4e93a2e5c54ca3ce45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b4c74d1547bc9d479cfc9caa2497b6') in 0.132356 seconds 
+  Import took 0.135203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_1.wav
+  artifactKey: Guid(92a53ef84f7b1492d9a77f229d54ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_1.wav using Guid(92a53ef84f7b1492d9a77f229d54ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240454017a5ec9da00f09ba19a18e857') in 0.116066 seconds 
+  Import took 0.120118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_saw_2.wav
+  artifactKey: Guid(bd895972fc816417db3cadc6b52b8f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_saw_2.wav using Guid(bd895972fc816417db3cadc6b52b8f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebb70080e4caa4e5d84a077669029a8') in 0.066104 seconds 
+  Import took 0.069649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_swap_3.wav
+  artifactKey: Guid(f062489c59b4446c8b0bf84e95b9e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_swap_3.wav using Guid(f062489c59b4446c8b0bf84e95b9e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdbdcc9b30e6716c6d57eb8bc1b1258') in 0.022293 seconds 
+  Import took 0.025500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_3.wav
+  artifactKey: Guid(0399cd4d875724d8da002ad55f7e5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_3.wav using Guid(0399cd4d875724d8da002ad55f7e5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdec64616b4911839878c9fbf2c8cca') in 0.069292 seconds 
+  Import took 0.078857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000954 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_organ_1.wav
+  artifactKey: Guid(947de6e081bdf4ffba08c28f45e49a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_organ_1.wav using Guid(947de6e081bdf4ffba08c28f45e49a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec19815e5acec50b7b9cefe7634b2307') in 0.056903 seconds 
+  Import took 0.061195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_2.wav
+  artifactKey: Guid(d5911f004ec494720ad97834b28edf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_chord_2.wav using Guid(d5911f004ec494720ad97834b28edf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f69897043264c4da9971601ead4719') in 0.047058 seconds 
+  Import took 0.050128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_saw_1.wav
+  artifactKey: Guid(983847d0a2204461aaa7deb8c8aa3b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Decrease_saw_1.wav using Guid(983847d0a2204461aaa7deb8c8aa3b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cbd0ccf263e8dc21518195e7ee95c1') in 0.038719 seconds 
+  Import took 0.041762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/decrease_bell_2.wav
+  artifactKey: Guid(71d36b4b6d7c0457989d22a1e3daeda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/decrease_bell_2.wav using Guid(71d36b4b6d7c0457989d22a1e3daeda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0243e1d6b41d9b24d8565c5d567559') in 0.043805 seconds 
+  Import took 0.047537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_3.wav
+  artifactKey: Guid(b8075c83d8011483ca2093c2e7ac7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_3.wav using Guid(b8075c83d8011483ca2093c2e7ac7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37634963ae02a3fe3c9e02004f3db8ca') in 0.045717 seconds 
+  Import took 0.048777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_bell_2.wav
+  artifactKey: Guid(9aede1a92814348df8dee5c411499556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_bell_2.wav using Guid(9aede1a92814348df8dee5c411499556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c611310e13e5885cf564b2802c6e80') in 0.042067 seconds 
+  Import took 0.046034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_4.wav
+  artifactKey: Guid(cce5a7f7dd5bf433db2d0c62516b3cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_chord_4.wav using Guid(cce5a7f7dd5bf433db2d0c62516b3cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6426edec8f4f77ad8f171e0e4104f0') in 0.048733 seconds 
+  Import took 0.053948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_bell_2.wav
+  artifactKey: Guid(9aede1a92814348df8dee5c411499556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_bell_2.wav using Guid(9aede1a92814348df8dee5c411499556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c611310e13e5885cf564b2802c6e80') in 0.017511 seconds 
+  Import took 0.022078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_swap_1.wav
+  artifactKey: Guid(ad4355b553422419d9eb7b13184612d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Increase-Decrease/Increase_swap_1.wav using Guid(ad4355b553422419d9eb7b13184612d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303f43c36daed482a12584d9d55b9749') in 0.079756 seconds 
+  Import took 0.085762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.713517 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic
+  artifactKey: Guid(06db8682811104261b84c1a6abb24c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic using Guid(06db8682811104261b84c1a6abb24c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf3fdac61ded132fb0d197246d2a4c1') in 0.005144 seconds 
+  Import took 0.009134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057202 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_a.wav
+  artifactKey: Guid(b3f210289cf8f4473a7e2fcf62618a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_a.wav using Guid(b3f210289cf8f4473a7e2fcf62618a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348c235c53d8adfdded2b71d386c5208') in 0.106762 seconds 
+  Import took 0.111854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_d.wav
+  artifactKey: Guid(e4598b078fbb0493fb2a32c42257bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_d.wav using Guid(e4598b078fbb0493fb2a32c42257bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f872af7dad8acd09511b1f8d7eedaeb3') in 0.064935 seconds 
+  Import took 0.068365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_b.wav
+  artifactKey: Guid(47aff1a04d15540d19ef0b49797fa7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_b.wav using Guid(47aff1a04d15540d19ef0b49797fa7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab2859d0d52dac3ced0f8061ef9a69') in 0.051123 seconds 
+  Import took 0.054150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_e.wav
+  artifactKey: Guid(c660b8efb5ac940bb8dabd1d1935a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_e.wav using Guid(c660b8efb5ac940bb8dabd1d1935a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb45fdc836b8e30ac596db0a28035a') in 0.045748 seconds 
+  Import took 0.049028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_a.wav
+  artifactKey: Guid(71581a3a876c64355967f61beb29f19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_a.wav using Guid(71581a3a876c64355967f61beb29f19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b515cf73d8957eb144a490703471a2ff') in 0.033240 seconds 
+  Import took 0.042954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_b.wav
+  artifactKey: Guid(0e30f074e023c4ddfaa353b20fd5df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_b.wav using Guid(0e30f074e023c4ddfaa353b20fd5df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c5530624824eb55e735bf33bd33a8f') in 0.056681 seconds 
+  Import took 0.062040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_c.wav
+  artifactKey: Guid(a17a3cb9f9373471f8d7bea506264b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_c.wav using Guid(a17a3cb9f9373471f8d7bea506264b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153e91c280f6e2d7fa33d61b63a447b8') in 0.048033 seconds 
+  Import took 0.050882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_c.wav
+  artifactKey: Guid(8d35097f977614eeaa182e73941c6d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_c.wav using Guid(8d35097f977614eeaa182e73941c6d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab4b3dbd1f51911f5f026a98afc7e4c') in 0.041528 seconds 
+  Import took 0.044900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_saw_1_a.wav
+  artifactKey: Guid(fe636fb748cfb46e0a4acf50bf7750ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_saw_1_a.wav using Guid(fe636fb748cfb46e0a4acf50bf7750ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0083a887862d42b4f642c26955377007') in 0.045426 seconds 
+  Import took 0.048340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_e.wav
+  artifactKey: Guid(2ffc7c0373ec54e7d902c18e128506ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_e.wav using Guid(2ffc7c0373ec54e7d902c18e128506ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed4210585d2e65cfe950e49f457cfca') in 0.046302 seconds 
+  Import took 0.049898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_e.wav
+  artifactKey: Guid(247e9adf61ec346859db4857417026b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_e.wav using Guid(247e9adf61ec346859db4857417026b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0645e0f8362b6ce5f9bcafa406c5b58c') in 0.049653 seconds 
+  Import took 0.052821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_c.wav
+  artifactKey: Guid(b07deb9d915c74a28ba58168cb1bc78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_c.wav using Guid(b07deb9d915c74a28ba58168cb1bc78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e2b31f6313825e3665cf322c35f2db') in 0.047939 seconds 
+  Import took 0.050982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_d.wav
+  artifactKey: Guid(906f0f9d9874c46458ec6f08f3eaf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_d.wav using Guid(906f0f9d9874c46458ec6f08f3eaf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3237963bbf2b7df639b9a46f6775d22') in 0.076597 seconds 
+  Import took 0.080757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_b.wav
+  artifactKey: Guid(3a561d8129ab04bd0a08d0c43a4e7f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_b.wav using Guid(3a561d8129ab04bd0a08d0c43a4e7f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b16b1adef9508fe2883c1412926b33f') in 0.062149 seconds 
+  Import took 0.065965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_d.wav
+  artifactKey: Guid(6b1d34befb7314ea7a9109e3de30986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_d.wav using Guid(6b1d34befb7314ea7a9109e3de30986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0275f581e95ee3d2b41307a91d9b17e2') in 0.044444 seconds 
+  Import took 0.047608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_b.wav
+  artifactKey: Guid(ae62051c95a9c40d0837ddf4e873c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_b.wav using Guid(ae62051c95a9c40d0837ddf4e873c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aabe123a38bb7dd090f1fd664f704b') in 0.052158 seconds 
+  Import took 0.055404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_c.wav
+  artifactKey: Guid(bd2e96cb98b5642d0b5b53c04f9dc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_c.wav using Guid(bd2e96cb98b5642d0b5b53c04f9dc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b923dfd6dbd9f6ddfee79c4b334681') in 0.045427 seconds 
+  Import took 0.048780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_saw_1_b.wav
+  artifactKey: Guid(0751b9bef37314189b468ae3dd4f236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_saw_1_b.wav using Guid(0751b9bef37314189b468ae3dd4f236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d0b208135c979de359315dfadc2f8a') in 0.043359 seconds 
+  Import took 0.048105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_e.wav
+  artifactKey: Guid(e305c73a1add44a87b8e6d8524454eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_e.wav using Guid(e305c73a1add44a87b8e6d8524454eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4e8626904b06a062d8d866ad755abd') in 0.062627 seconds 
+  Import took 0.068095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_b.wav
+  artifactKey: Guid(b89e3ee719cb14af88eeb54d5664bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_b.wav using Guid(b89e3ee719cb14af88eeb54d5664bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0235dcd4c6eb89da3636fa75476262bc') in 0.067433 seconds 
+  Import took 0.071652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_c.wav
+  artifactKey: Guid(ad74ea0baa972443bb68448859fed5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_c.wav using Guid(ad74ea0baa972443bb68448859fed5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994134ebfafb1fef976f9cda6f9e3448') in 0.051795 seconds 
+  Import took 0.055382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_a.wav
+  artifactKey: Guid(3a1b93df067b24be3b5db50f54007e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_a.wav using Guid(3a1b93df067b24be3b5db50f54007e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab26cee7d1a9426f223ee363dba639a8') in 0.047320 seconds 
+  Import took 0.050995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_a.wav
+  artifactKey: Guid(12f58e69afb2147d99de7ca1bd6da15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_a.wav using Guid(12f58e69afb2147d99de7ca1bd6da15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083a589dce510d288dcad027cba60d42') in 0.043052 seconds 
+  Import took 0.046309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_d.wav
+  artifactKey: Guid(fb195b536fe24446396ac97e80c9521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_d.wav using Guid(fb195b536fe24446396ac97e80c9521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4ac87ddef59672823385c2f4e4ab23') in 0.041722 seconds 
+  Import took 0.045005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_d.wav
+  artifactKey: Guid(59c81458023554bbeb655e7f68a1d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_d.wav using Guid(59c81458023554bbeb655e7f68a1d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9fa575e8246533673039a2b74542ad') in 0.043014 seconds 
+  Import took 0.047068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_e.wav
+  artifactKey: Guid(144dafd37a194429b8f854a133322a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_e.wav using Guid(144dafd37a194429b8f854a133322a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020ec63fd7bfc169cdade15982bf6108') in 0.062094 seconds 
+  Import took 0.066072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_d.wav
+  artifactKey: Guid(a8ec71187f127404298e0c988c9a8e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_d.wav using Guid(a8ec71187f127404298e0c988c9a8e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13562017382c7e190ca19a7d5d27829f') in 0.050815 seconds 
+  Import took 0.054822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_d.wav
+  artifactKey: Guid(9fe3f55c6e2e448e5afd00292c118e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_d.wav using Guid(9fe3f55c6e2e448e5afd00292c118e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2583d0aa5a593019e6a345da7b615851') in 0.042798 seconds 
+  Import took 0.045683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_c.wav
+  artifactKey: Guid(6e9c02bbea51845d9a3745e38e2dcd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_c.wav using Guid(6e9c02bbea51845d9a3745e38e2dcd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388da0515a0e8c4c5a77e2355aa836c8') in 0.041651 seconds 
+  Import took 0.045955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_b.wav
+  artifactKey: Guid(5175a1abb00d54e5a82507fae44342a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_2_b.wav using Guid(5175a1abb00d54e5a82507fae44342a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254137ea05a918019ef3d1da94fd75f7') in 0.045051 seconds 
+  Import took 0.048604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_a.wav
+  artifactKey: Guid(3c8ce273458da49ed99d51dac30f2b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_a.wav using Guid(3c8ce273458da49ed99d51dac30f2b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd503a053a12d145d2a07fbfbe22d12de') in 0.035654 seconds 
+  Import took 0.038977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_e.wav
+  artifactKey: Guid(3be0d8b11f85a406fa92059bf6343405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_3_e.wav using Guid(3be0d8b11f85a406fa92059bf6343405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ef39f8fa376579203d91002c4e6af7') in 0.041167 seconds 
+  Import took 0.044651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_e.wav
+  artifactKey: Guid(36918866a498e4d019f161199d4398cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_e.wav using Guid(36918866a498e4d019f161199d4398cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f8cc26026c736e258f560b447f2072') in 0.040600 seconds 
+  Import took 0.043807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_a.wav
+  artifactKey: Guid(820931fb511624737beb248c33a8b77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_1_a.wav using Guid(820931fb511624737beb248c33a8b77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e0709c1c7fe475617756ba67f67417') in 0.046165 seconds 
+  Import took 0.049558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_a.wav
+  artifactKey: Guid(b3f210289cf8f4473a7e2fcf62618a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_bell_1_a.wav using Guid(b3f210289cf8f4473a7e2fcf62618a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348c235c53d8adfdded2b71d386c5208') in 0.012747 seconds 
+  Import took 0.016813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_c.wav
+  artifactKey: Guid(907b1ca3dc56549228badef9c1138fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_1_c.wav using Guid(907b1ca3dc56549228badef9c1138fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438eeac7074ec66547871824bd78fc05') in 0.052578 seconds 
+  Import took 0.057487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_a.wav
+  artifactKey: Guid(8d0e88227826846349fd89de28b4cfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_organ_2_a.wav using Guid(8d0e88227826846349fd89de28b4cfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd225c8c5c33ba277b90a36731390815') in 0.038699 seconds 
+  Import took 0.042907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_b.wav
+  artifactKey: Guid(9e2866d61a5964abf8250d1020a24530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Score and Times - Game Sound Solutions/Electronic/Score_chord_4_b.wav using Guid(9e2866d61a5964abf8250d1020a24530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faee64915207984e2a733b97461719a4') in 0.044152 seconds 
+  Import took 0.050087 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (570ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 3.864700 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.059100 ms MarkObjects: 3.235800 ms  DeleteObjects: 0.359000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
