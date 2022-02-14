@@ -5,10 +5,17 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     public GameObject scoreCanvas;
+    public LifeScript life;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision Detected");
-        scoreCanvas.SetActive(true); 
+        if(other.tag=="Finish"){
+            Debug.Log("Collision Detected");
+            scoreCanvas.SetActive(true); 
+        }
+        else{
+             Debug.Log("Collision Detected");
+            life.jaan--;
+        }
     }
 
     // Start is called before the first frame update

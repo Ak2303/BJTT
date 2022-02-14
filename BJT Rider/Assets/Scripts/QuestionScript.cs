@@ -21,6 +21,7 @@ public class QuestionScript : MonoBehaviour
             questionCanvas.SetActive(false);
         }else{
             Verdict.text="Wrong Option!! You lost one life. Try again.";
+            Invoke("DisableText", 1f);
             Debug.Log("WrongAnswer");
             lifeScript.jaan = lifeScript.jaan - 1;
             if(lifeScript.jaan == 0){
@@ -39,6 +40,7 @@ public class QuestionScript : MonoBehaviour
             questionCanvas.SetActive(false);
         }else{
             Verdict.text="Wrong Option!! You lost one life. Try again.";
+            Invoke("DisableText", 1f);
             Debug.Log("WrongAnswer");
             lifeScript.jaan = lifeScript.jaan - 1;
             if(lifeScript.jaan == 0){
@@ -56,6 +58,7 @@ public class QuestionScript : MonoBehaviour
             questionCanvas.SetActive(false);
         }else{
             Verdict.text="Wrong Option!! You lost one life. Try again.";
+            Invoke("DisableText", 1f);
             Debug.Log("WrongAnswer");
             lifeScript.jaan = lifeScript.jaan - 1;
             if(lifeScript.jaan == 0){
@@ -74,4 +77,8 @@ public class QuestionScript : MonoBehaviour
     {
         
     }
+    void DisableText()
+   { 
+      Verdict.text = ""; 
+   }
 }
