@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestionScript : MonoBehaviour
 {
-
+    public Text Verdict;
     public int correctAnswer = 1;
+    
     public GameObject doorsLeft;
     public GameObject doorsRight;
     public GameObject questionCanvas;
@@ -18,12 +20,12 @@ public class QuestionScript : MonoBehaviour
             doorsRight.GetComponent<BoxCollider>().enabled = false;
             questionCanvas.SetActive(false);
         }else{
-
+            Verdict.text="Wrong Option!! You lost one life. Try again.";
             Debug.Log("WrongAnswer");
             lifeScript.jaan = lifeScript.jaan - 1;
             if(lifeScript.jaan == 0){
                 Debug.Log("Game Over");
-            }
+            } 
 
         }
     }
@@ -36,7 +38,7 @@ public class QuestionScript : MonoBehaviour
             doorsRight.GetComponent<BoxCollider>().enabled = false;
             questionCanvas.SetActive(false);
         }else{
-
+            Verdict.text="Wrong Option!! You lost one life. Try again.";
             Debug.Log("WrongAnswer");
             lifeScript.jaan = lifeScript.jaan - 1;
             if(lifeScript.jaan == 0){
@@ -53,7 +55,7 @@ public class QuestionScript : MonoBehaviour
             doorsRight.GetComponent<BoxCollider>().enabled = false;
             questionCanvas.SetActive(false);
         }else{
-
+            Verdict.text="Wrong Option!! You lost one life. Try again.";
             Debug.Log("WrongAnswer");
             lifeScript.jaan = lifeScript.jaan - 1;
             if(lifeScript.jaan == 0){
