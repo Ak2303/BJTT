@@ -7,8 +7,8 @@ public class LifeScript : MonoBehaviour
 {
     public Image healthBar;
     public int jaan = 4;
-    private float decrement = 0.25F;
-
+    private float decrement = 0.25F;//
+    public GameObject ScoreCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +19,8 @@ public class LifeScript : MonoBehaviour
     void Update()
     {
         healthBar.fillAmount = jaan * decrement;
+        if(jaan==0){
+            ScoreCanvas.SetActive(true);
+        }
     }
 }
