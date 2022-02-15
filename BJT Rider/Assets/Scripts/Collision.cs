@@ -8,13 +8,19 @@ public class Collision : MonoBehaviour
     public LifeScript life;
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag=="Finish"){
-            Debug.Log("Collision Detected");
+        if(this.gameObject.CompareTag("Finish")){
+            Debug.Log(this.gameObject.tag);
             scoreCanvas.SetActive(true); 
         }
         else{
-             Debug.Log("Collision Detected");
-            life.jaan--;
+            if(this.gameObject.CompareTag("Respawn")){
+                Debug.Log(this.gameObject.tag);
+                scoreCanvas.SetActive(true); 
+            }
+            else{
+                Debug.Log(this.gameObject.tag);
+                life.jaan--;
+            }
         }
     }
 
