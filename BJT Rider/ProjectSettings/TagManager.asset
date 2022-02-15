@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Question
   - fence
+  - WrongPath
+  - CorrectPath
+  - Passed
   layers:
   - Default
   - TransparentFX

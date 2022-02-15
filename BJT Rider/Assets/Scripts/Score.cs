@@ -7,13 +7,13 @@ public class Score : MonoBehaviour
 {
     public Text scoreText;
     public float scoreAmount;
-    public float pointDecreasedPerSecond;
+    public float pointDecreasedPerSecond = -1f;
     public float counter;
     // Start is called before the first frame update
     void Start()
     {
         scoreAmount=500f;
-        pointDecreasedPerSecond=-1f;
+        pointDecreasedPerSecond = -1f;
         counter = 3;
     }
 

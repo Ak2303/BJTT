@@ -11,14 +11,22 @@ public class QuestionScript : MonoBehaviour
     public GameObject doorsLeft;
     public GameObject doorsRight;
     public GameObject questionCanvas;
+    public GameObject gameCanvas;
     public LifeScript lifeScript;
+    public Score scoreScript;
     public void OnFirstOption(){
         if(correctAnswer == 1){
             doorsLeft.transform.Rotate(0,-90,0);
             doorsRight.transform.Rotate(0,-90,0);
             doorsLeft.GetComponent<BoxCollider>().enabled = false;
             doorsRight.GetComponent<BoxCollider>().enabled = false;
+            scoreScript.pointDecreasedPerSecond = -1f;
+            if(lifeScript.jaan<4){
+                lifeScript.jaan++;
+            }
             questionCanvas.SetActive(false);
+            gameCanvas.SetActive(true); 
+
         }else{
             Verdict.text="Wrong Option!! You lost one life. Try again.";
             Invoke("DisableText", 1f);
@@ -37,7 +45,12 @@ public class QuestionScript : MonoBehaviour
             doorsRight.transform.Rotate(0,-90,0);
             doorsLeft.GetComponent<BoxCollider>().enabled = false;
             doorsRight.GetComponent<BoxCollider>().enabled = false;
+            if(lifeScript.jaan<4){
+                lifeScript.jaan++;
+            }
             questionCanvas.SetActive(false);
+            scoreScript.pointDecreasedPerSecond = -1f;
+            gameCanvas.SetActive(true); 
         }else{
             Verdict.text="Wrong Option!! You lost one life. Try again.";
             Invoke("DisableText", 1f);
@@ -55,7 +68,12 @@ public class QuestionScript : MonoBehaviour
             doorsRight.transform.Rotate(0,-90,0);
             doorsLeft.GetComponent<BoxCollider>().enabled = false;
             doorsRight.GetComponent<BoxCollider>().enabled = false;
+            if(lifeScript.jaan<4){
+                lifeScript.jaan++;
+            }
             questionCanvas.SetActive(false);
+            scoreScript.pointDecreasedPerSecond = -1f;
+            gameCanvas.SetActive(true); 
         }else{
             Verdict.text="Wrong Option!! You lost one life. Try again.";
             Invoke("DisableText", 1f);

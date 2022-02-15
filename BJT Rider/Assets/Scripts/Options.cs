@@ -18,7 +18,7 @@ public class Options : MonoBehaviour
 
     public void onQuit(){
         Debug.Log("Quit!!");
-        Application.Quit();
+        SceneManager.LoadScene("HomePage");
     }
     
 
