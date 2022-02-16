@@ -47,7 +47,8 @@ public class PlayFabManager : MonoBehaviour
 
     void OnRegisterSuccess(RegisterPlayFabUserResult result){
         ErrorMessage.text = "Registered successfully and Loggedin!!!!!";
-        SendLeaderboard(50);
+        SendLeaderboard(0);
+        saveProgress((0).ToString());
         SceneManager.LoadScene("WelcomeScene");
     }
     
@@ -177,6 +178,19 @@ public class PlayFabManager : MonoBehaviour
     }
     
 
+    public void saveProgress(string level){
+        var request = new UpdateUserDataRequest{
+            Data = new Dictionary <string, string>{
+                {"level", level},
+            }
+        };
+        PlayFabClientAPI.UpdateUserData(request, OnDataSend, OnError);
+    }
+
+    void OnDataSend(UpdateUserDataResult result){
+        Debug.Log("User data send");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -199,19 +213,5 @@ public class PlayFabManager : MonoBehaviour
    { 
       ErrorMessage.text = ""; 
    }
-
-
-//    public int StartScore(){
-//         var request = new GetLeaderboardAroundPlayerRequest{
-//             StatisticName = "Scoreboard",
-//             MaxResultsCount = 1
-//         };
-//         return PlayFabClientAPI.GetLeaderboardAroundPlayer(request, OnStartScoreGet, OnError);
-//     }
-//     int OnStartScoreGet(GetLeaderboardResult result){
-//         foreach (var item in result.Leaderboard){
-//             return item.StatValue;
-//         }
-//     }
 
 }

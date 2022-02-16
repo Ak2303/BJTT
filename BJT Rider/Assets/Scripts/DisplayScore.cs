@@ -20,6 +20,8 @@ public class DisplayScore : MonoBehaviour
         ScoreText.text = "Score : " + score;
         TotalScoreCanvas.SetActive(true);
         playFabManager.SendLeaderboard(score);
+        int curr = SceneManager.GetActiveScene().buildIndex;
+        playFabManager.saveProgress((curr - 3).ToString());
     }
 
     //Button on the Score UI
