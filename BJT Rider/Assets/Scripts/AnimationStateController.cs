@@ -24,13 +24,13 @@ public class AnimationStateController : MonoBehaviour
         bool isLeft = animator.GetBool("isLeft");
         bool isRight = animator.GetBool("isRight");
         bool isWalking = animator.GetBool("isWalking");
-        bool isJumping = animator.GetBool("isJumping");
+        
 
         if(spacePressed){
-            animator.SetBool("isJumping", true);
+            animator.SetBool("isJump", true);
         }
         if(!spacePressed){
-            animator.SetBool("isJumping", false);
+            animator.SetBool("isJump", false);
         }
         if(!isWalking && wPressed)
         {

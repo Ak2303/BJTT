@@ -12,8 +12,16 @@ public class DisplayScore : MonoBehaviour
     public GameObject TotalScoreCanvas;
     public int score = 0;
     public PlayFabManager playFabManager;
+    private AudioSource victorySound;
+    public AudioSource bgSound;
+    private int isPlaying = 0;
     private void OnTriggerEnter(Collider other)
     {
+        if(isPlaying == 0){
+            isPlaying = 1;
+            victorySound.Play();
+            bgSound.Stop();
+        }
         Debug.Log("Collision Detected");
         finalScore.stopTimer = false;
         score = (int)finalScore.final_score;
@@ -41,7 +49,7 @@ public class DisplayScore : MonoBehaviour
 
     void Start()
     {
-        
+        victorySound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

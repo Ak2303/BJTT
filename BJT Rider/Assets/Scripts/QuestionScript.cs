@@ -14,6 +14,8 @@ public class QuestionScript : MonoBehaviour
     public GameObject gameCanvas;
     public LifeScript lifeScript;
     public Score scoreScript;
+    private AudioSource healthgainedSound;
+    public AudioSource wrongAnswerSound;
     public void OnFirstOption(){
         if(correctAnswer == 1){
             doorsLeft.transform.Rotate(0,-90,0);
@@ -23,11 +25,13 @@ public class QuestionScript : MonoBehaviour
             scoreScript.pointDecreasedPerSecond = -1f;
             if(lifeScript.jaan<4){
                 lifeScript.jaan++;
+                healthgainedSound.Play();
             }
             questionCanvas.SetActive(false);
             gameCanvas.SetActive(true); 
 
         }else{
+            wrongAnswerSound.Play();
             Verdict.text="Wrong Option!! You lost one life. Try again.";
             Invoke("DisableText", 1f);
             Debug.Log("WrongAnswer");
@@ -47,11 +51,13 @@ public class QuestionScript : MonoBehaviour
             doorsRight.GetComponent<BoxCollider>().enabled = false;
             if(lifeScript.jaan<4){
                 lifeScript.jaan++;
+                healthgainedSound.Play();
             }
             questionCanvas.SetActive(false);
             scoreScript.pointDecreasedPerSecond = -1f;
             gameCanvas.SetActive(true); 
         }else{
+            wrongAnswerSound.Play();
             Verdict.text="Wrong Option!! You lost one life. Try again.";
             Invoke("DisableText", 1f);
             Debug.Log("WrongAnswer");
@@ -70,11 +76,13 @@ public class QuestionScript : MonoBehaviour
             doorsRight.GetComponent<BoxCollider>().enabled = false;
             if(lifeScript.jaan<4){
                 lifeScript.jaan++;
+                healthgainedSound.Play();
             }
             questionCanvas.SetActive(false);
             scoreScript.pointDecreasedPerSecond = -1f;
             gameCanvas.SetActive(true); 
         }else{
+            wrongAnswerSound.Play();
             Verdict.text="Wrong Option!! You lost one life. Try again.";
             Invoke("DisableText", 1f);
             Debug.Log("WrongAnswer");
@@ -87,7 +95,7 @@ public class QuestionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthgainedSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

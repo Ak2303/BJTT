@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
     private float startTime;
     private float counter;
     float t;
+    
 
     void Start(){
         startTime = 300;
@@ -20,6 +21,7 @@ public class Timer : MonoBehaviour
     void Update(){
         if(counter < 1 && counter > 0){
             timerText.text = "!!START!!";
+            
             counter = counter - Time.deltaTime;
         }else if(counter < 0){
             t = t - Time.deltaTime;

@@ -16,9 +16,7 @@ public class HomePageScript : MonoBehaviour
     public int level;
     public void OnStartClick(){
         StartScore();
-        score=score*-1;
-        playFab.SendLeaderboard(score);
-        SceneManager.LoadScene("NPNActiveTrack");
+        
     }
 
     void OpenScene(int level){
@@ -75,6 +73,10 @@ public class HomePageScript : MonoBehaviour
         foreach (var item in result.Leaderboard){
             score = item.StatValue;
         }
+
+        score=score*-1;
+        playFab.SendLeaderboard(score);
+        SceneManager.LoadScene("NPNActiveTrack");
     }
 
     public void getProgress(){
