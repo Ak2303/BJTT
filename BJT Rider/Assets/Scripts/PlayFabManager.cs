@@ -43,6 +43,8 @@ public class PlayFabManager : MonoBehaviour
 
     } 
 
+    
+
     void OnRegisterSuccess(RegisterPlayFabUserResult result){
         ErrorMessage.text = "Registered successfully and Loggedin!!!!!";
         SendLeaderboard(50);
@@ -110,7 +112,7 @@ public class PlayFabManager : MonoBehaviour
                 }
             }
         };
-        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);//haa accha
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
     }
     
 
@@ -155,6 +157,8 @@ public class PlayFabManager : MonoBehaviour
         PlayFabClientAPI.GetLeaderboardAroundPlayer(request, OnLeaderboardScoreGet, OnError);
     }
 
+    
+
     void OnLeaderboardScoreGet(GetLeaderboardAroundPlayerResult result){
         foreach (Transform item in playerRowParent)
         {
@@ -168,7 +172,7 @@ public class PlayFabManager : MonoBehaviour
             texts[0].text = (item.Position +1).ToString();//
             texts[1].text = (item.DisplayName);
             texts[2].text = (item.StatValue).ToString();
-            Debug.Log(item.Position + 1 + " " + item.PlayFabId + " " + item.StatValue);//
+            Debug.Log(item.Position + 1 + " " + item.PlayFabId + " " + item.StatValue);
         }
     }
     
@@ -195,5 +199,19 @@ public class PlayFabManager : MonoBehaviour
    { 
       ErrorMessage.text = ""; 
    }
+
+
+//    public int StartScore(){
+//         var request = new GetLeaderboardAroundPlayerRequest{
+//             StatisticName = "Scoreboard",
+//             MaxResultsCount = 1
+//         };
+//         return PlayFabClientAPI.GetLeaderboardAroundPlayer(request, OnStartScoreGet, OnError);
+//     }
+//     int OnStartScoreGet(GetLeaderboardResult result){
+//         foreach (var item in result.Leaderboard){
+//             return item.StatValue;
+//         }
+//     }
 
 }
