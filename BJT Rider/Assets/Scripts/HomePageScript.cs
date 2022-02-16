@@ -8,7 +8,11 @@ public class HomePageScript : MonoBehaviour
     public PlayFabManager playFab;
 
     public void OnStartClick(){
+        // int score=playFab.StartScore();
+        // score=score*-1;
+        // playFab.SendLeaderboard(score);
         SceneManager.LoadScene("NPNActiveTrack");
+
     }
 
     public void OnSettings(){
