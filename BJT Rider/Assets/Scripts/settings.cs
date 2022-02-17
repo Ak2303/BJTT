@@ -11,7 +11,7 @@ public class settings : MonoBehaviour
     }
 
     public void OnQuit(){
-        Application.Quit();
+        SceneManager.LoadScene("HomePage");
     }
 
 }
