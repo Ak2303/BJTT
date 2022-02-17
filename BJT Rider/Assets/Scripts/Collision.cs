@@ -38,6 +38,8 @@ public class Collision : MonoBehaviour
 
             Debug.Log(this.gameObject.tag);
             scoreScript.scoreAmount += 50;
+        }else if (this.gameObject.CompareTag("Ground")){
+            life.jaan = 0;
         }
         else{
             collideSound.Play();

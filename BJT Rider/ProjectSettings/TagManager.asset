@@ -9,6 +9,7 @@ TagManager:
   - WrongPath
   - CorrectPath
   - Passed
+  - Ground
   layers:
   - Default
   - TransparentFX
