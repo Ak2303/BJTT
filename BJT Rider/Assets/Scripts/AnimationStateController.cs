@@ -32,21 +32,21 @@ public class AnimationStateController : MonoBehaviour
         if(!spacePressed){
             animator.SetBool("isJump", false);
         }
-        if(!isWalking && wPressed)
-        {
-            animator.SetBool("isWalking", true);
-        }
-        if(isWalking && !wPressed){
-            animator.SetBool("isWalking", false);
-        }
-
-        if(!isRunning && shiftPressed)//ig
+        if(!isRunning && wPressed)
         {
             animator.SetBool("isRunning", true);
         }
-        if(isRunning && !shiftPressed){
+        if(isRunning && !wPressed){
             animator.SetBool("isRunning", false);
         }
+
+        // if(!isRunning && shiftPressed)//ig
+        // {
+        //     animator.SetBool("isRunning", true);
+        // }
+        // if(isRunning && !shiftPressed){
+        //     animator.SetBool("isRunning", false);
+        // }
 
         if(aPressed)
         {

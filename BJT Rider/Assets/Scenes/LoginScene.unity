@@ -408,6 +408,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6133509851991505950, guid: bf81268b9a9d97c4f9fdd82226f8cf71, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133509851991505950, guid: bf81268b9a9d97c4f9fdd82226f8cf71, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133509851991505950, guid: bf81268b9a9d97c4f9fdd82226f8cf71, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133509851991505950, guid: bf81268b9a9d97c4f9fdd82226f8cf71, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 6133509852486835076, guid: bf81268b9a9d97c4f9fdd82226f8cf71, type: 3}
       propertyPath: m_SizeDelta.x
       value: 290.5643
