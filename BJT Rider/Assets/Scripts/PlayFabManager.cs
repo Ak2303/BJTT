@@ -33,7 +33,7 @@ public class PlayFabManager : MonoBehaviour
             return ;
         }
 
-        Email.text = Email.text + "@iitj.ac.in";
+        
         var request = new RegisterPlayFabUserRequest{
             Email = Email.text,
             Password = Password.text, 
@@ -54,7 +54,7 @@ public class PlayFabManager : MonoBehaviour
     
 
     public void loginButton(){
-        Email.text = Email.text + "@iitj.ac.in";    
+          
         var request = new LoginWithEmailAddressRequest{
             Email = Email.text,
             Password = Password.text, 
@@ -90,7 +90,7 @@ public class PlayFabManager : MonoBehaviour
 
 
     public void resetPasswordButton(){
-        Email.text = Email.text + "@iitj.ac.in";
+        
         var request = new SendAccountRecoveryEmailRequest{
             Email = Email.text,
             TitleId = "385E8", 
